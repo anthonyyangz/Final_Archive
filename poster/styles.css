@@ -1,0 +1,403 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 1056px;
+  width: 756px;
+  overflow: hidden;
+  background-color: #a79e95;
+  margin: auto;
+transform: scale(1);
+position: relative;
+}
+
+.wrapper {
+  height: 1056px;
+  width: 756px;
+  transform: rotate(45deg);
+  transform-origin: left top;
+  background-color: #a79e95;
+  position: relative;
+  margin: auto;
+}
+
+.firstblock {
+  width: 90px;
+  height: 530px;
+  top: -211.71px;
+  left :225px;
+  position: absolute;
+  margin: 0px;
+  background-color: #013d5f;
+  animation-name: drift1;
+  animation-duration: 12s;
+  animation-fill-mode: both;
+}
+
+.secblock {
+  height: 558px;
+  width: 40px;
+  top: -318.33px;
+  left: 315px;
+  margin: 0px;
+  position:absolute;
+  background-color: #c30126;
+  animation-name: drift2;
+  animation-duration: 12s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+.trdblock {
+  height: 369.20px;
+  width: 90px;
+  position:absolute;
+  top: -27.56px;
+  left: 355.00px;
+  margin: 0;
+  background-color: #013d5f;
+  animation-name: drift3;
+  animation-duration: 12s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.fourblock {
+  height: 201.87px;
+  width: 40px;
+  position:absolute;
+  top: 236.84px;
+  left: 445px;
+  margin: 0;
+  background-color: #c48502;
+  animation-name: drift4;
+  animation-duration: 12s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+
+.fiveblock {
+  height: 440.34px;
+  width: 40px;
+  position:absolute;
+  top: -318.33px;
+  left: 445px;
+  margin: 0;
+  background-color: #c30126;
+  animation-name: drift5;
+  animation-duration: 12s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+
+.sixblock {
+  height: 181.45px;
+  width: 90px;
+  position:absolute;
+  top: 156.32px;
+  left: 485px;
+  margin: 0;
+  background-color: #013d5f;
+  animation-name: drift6;
+  animation-duration: 12s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+.sevenblock {
+  height: 316.69px;
+  width: 40px;
+  position:absolute;
+  top: 122.01px;
+  left: 575px;
+  margin: 0;
+  background-color: #c48502;
+  animation-name: drift7;
+  animation-duration: 12s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+}
+
+.eightblock {
+  height: 323.15px;
+  width: 40px;
+  position:absolute;
+  top: -318.33px;
+  left: 575px;
+  margin: 0;
+  background-color: #c30126;
+  animation-name: drift8;
+  animation-duration: 12s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+}
+
+.nineblock {
+  height: 556.19px;
+  width: 90px;
+  position:absolute;
+  top: -214.55px;
+  left: 615px;
+  margin: 0;
+  background-color: #013d5f;
+  animation-name: drift9;
+  animation-duration: 12s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+
+.tenblock {
+  height: 436.21px;
+  width: 40px;
+  position:absolute;
+  top: 2.5px;
+  left: 705px;
+  margin: 0;
+  background-color: #c48502;
+  animation-name: drift10;
+  animation-duration: 12s;
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+}
+
+.elevenblock {
+  height: 204.5px;
+  width: 40px;
+  position:absolute;
+  top: -318.33px;
+  left: 705px;
+  margin: 0;
+  background-color: #c30126;
+  animation-name: drift11;
+  animation-duration: 12s;
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+}
+
+.twelveblock {
+  height: 370.24px;
+  width: 90px;
+  position:absolute;
+  top: -28.60px;
+  left: 745px;
+  margin: 0;
+  background-color: #013d5f;
+  animation-name: drift12;
+  animation-duration: 12s;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+}
+
+.thirteenblock {
+  height: 554.15px;
+  width: 40px;
+  position:absolute;
+  top: -115.37px;
+  left: 835px;
+  margin: 0;
+  background-color: #c48502;
+  animation-name: drift13;
+  animation-duration: 12s;
+  animation-delay: 4.5s;
+  animation-fill-mode: both;
+}
+
+.fourteenblock {
+  height: 186.56px;
+  width: 90px;
+  position:absolute;
+  top: 155.08px;
+  left: 875px;
+  margin: 0;
+  background-color: #013d5f;
+  animation-name: drift14;
+  animation-duration: 12s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+}
+
+.wordbox {
+  width: 756px;
+  height: 110px;
+  position: absolute;
+  align-self: center;
+  top: 951.32px;
+}
+
+.firstword {
+  position:absolute;
+  margin: 0;
+  line-height: 95%;
+  left: 35px;
+}
+
+.secword {
+  position:absolute;
+  margin: 0;
+  line-height: 95%;
+  left: 209.5px;
+}
+
+.thrdword {
+  position:absolute;
+  margin: 0;
+  line-height: 95%;
+  left: 381px;
+}
+
+.fourword {
+  position:absolute;
+  margin: 0;
+  line-height: 95%;
+  left: 552.5px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@keyframes drift1{
+  0%{top:-211.71px;}
+  50%{top:400px;}
+  100%{top:-211.71px;}
+}
+
+@keyframes drift2{
+  0%{top:-318.33px;}
+  50%{top:-920.33px;}
+  100%{top:-318.33px;}
+}
+
+@keyframes drift3{
+  0%{top:-27.56px;}
+  50%{top:500px;}
+  100%{top:-27.56px;}
+}
+
+@keyframes drift4{
+  0%{top:236.84px;}
+  50%{top:500px;}
+  100%{top:236.84px;}
+}
+
+@keyframes drift5{
+  0%{top:-318.33px;}
+  50%{top:-1000px;}
+  100%{top:-318.33px;}
+}
+
+@keyframes drift6{
+  0%{top:156.32px;}
+  50%{top:600px;}
+  100%{top:156.32px;}
+}
+
+@keyframes drift7{
+  0%{top:122.01px}
+  50%{top:650px;}
+  100%{top:122.01px}
+}
+
+@keyframes drift8{
+  0%{top:-318.33px;}
+  50%{top:-920.33px;}
+  100%{top:-318.33px;}
+}
+
+@keyframes drift9{
+  0%{top:-214.55px;}
+  50%{top:720px;}
+  100%{top:-214.55px;}
+}
+
+@keyframes drift10{
+  0%{top:2.5px;}
+  50%{top:820px;}
+  100%{top:2.5px;}
+}
+
+@keyframes drift11{
+  0%{top:-318.33px;}
+  50%{top:-720.33px;}
+  100%{top:-318.33px;}
+}
+
+@keyframes drift12{
+  0%{top:-28.60px}
+  50%{top:1020px;}
+  100%{top:-28.60px}
+}
+
+@keyframes drift13{
+  0%{top:-115.37;}
+  50%{top:920px;}
+  100%{top:-115.37;}
+}
+
+@keyframes drift14{
+  0%{top:155.08px;}
+  50%{top:920px;}
+  100%{top:155.08px;}
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+transform-origin: top left;
+transform: scale(0.4);
+  }
+}
+
+.panel66 {
+    position: relative;
+      left: -10vw; /*or width of your navigation panel*/
+    width: 10vw; /*should match the above value*/
+    height: 100vh;
+
+}
+
+.conta {
+  top:0;
+  left:0;
+  width: 5vw;
+  height: 100vh;
+  position: absolute;
+  /* margin-top: -95vh; */
+  float: left;
+  /* background-color: rgb(255, 0, 0); */
+}
+
+
+.panel66 {
+    background: #101820;
+            z-index: 2000;
+}
+
+.panel66 a {
+    color: rgb(255, 255, 255);
+        z-index: 2000;
+}
+
+.lili {
+  color: rgb(255, 255, 255);
+}
+
+
+.menu-link {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-size: 40px;
+}
+
+.wrap.push{
+    position: absolute;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}

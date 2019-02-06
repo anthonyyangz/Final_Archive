@@ -1,0 +1,762 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  align-content: center;
+  align-items: center;
+}
+
+.panel66 {
+    position: absolute;
+      left: -5vw; /*or width of your navigation panel*/
+    width: 10vw; /*should match the above value*/
+    height: 100vh;
+
+}
+
+.conta {
+  top:0;
+  left:0;
+  width: 5vw;
+  height: 100vh;
+  position: absolute;
+  /* margin-top: -95vh; */
+  float: left;
+  /* background-color: rgb(255, 0, 0); */
+}
+
+.panel66 {
+    background: #101820;
+            z-index: 2000;
+}
+
+.panel66 a {
+    color: rgb(255, 255, 255);
+        z-index: 2000;
+}
+
+.lili {
+  color: rgb(255, 255, 255);
+}
+
+
+.menu-link {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-size: 40px;
+  z-index: 9999;
+}
+
+.wrap.push{
+    position: absolute;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+
+.index3 {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  position: relative;
+  border: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.color1 {
+width:5%;
+height:93.75%;
+margin: 0;
+padding: 0;
+position: absolute;
+background-color: #feb396;
+animation-name: ani1;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-timing-function: ease-out;
+}
+
+.color2 {
+width:95%;
+height:6.25%;
+margin: 0;
+padding: 0;
+left: 50px;
+position: absolute;
+background-color: #ffccbf;
+animation-name: ani2;
+animation-duration: 1s;
+animation-delay: 2s;
+animation-fill-mode: both;
+animation-timing-function: ease-out;
+}
+
+.color3 {
+  width:5%;
+  height:93.75%;
+margin: 0;
+padding: 0;
+top: 50px;
+right: 0px;
+position: absolute;
+background-color: #aed4d5;
+animation-name: ani3;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-fill-mode: both;
+animation-timing-function: ease-out;
+}
+
+.color4 {
+  width:95%;
+  height:6.25%;
+margin: 0;
+padding: 0;
+bottom: 0px;
+right: 50px;
+position: absolute;
+background-color: #f9cc88;
+animation-name: ani4;
+animation-duration: 1s;
+animation-delay: 3s;
+animation-fill-mode: both;
+animation-timing-function: ease-out;
+}
+
+p {
+left:600px;
+top:200px;
+position: absolute;
+text-align: center;
+line-height: 1.5;
+animation-name: ani5;
+animation-duration: 5s;
+animation-delay: 4s;
+animation-fill-mode: both;
+animation-timing-function: ease-out;
+}
+
+#photos{
+    width:400px;
+    height:300px;
+    top:150px;
+    left: 100px;
+    position: absolute;
+}
+
+#photos img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    border-radius:4px;
+}
+
+.firstp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 4s;
+  animation-timing-function: ease-out;
+}
+
+.secp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 7s;
+  animation-timing-function: ease-out;
+}
+
+.thrp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 10s;
+  animation-timing-function: ease-out;
+}
+
+.foup {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 13s;
+  animation-timing-function: ease-out;
+}
+
+.fivp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 16s;
+  animation-timing-function: ease-out;
+}
+
+.sixp {
+  animation-name: ani7;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 19s;
+  animation-timing-function: ease-out;
+}
+a {
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  top:540px;
+  left:100px;
+  animation-name: ani7;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 19s;
+  animation-timing-function: ease-out;
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  height:60px;
+  font-size:1em;
+padding: -0.5em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+.next {
+  position: absolute;
+  top:540px;
+  left:650px;
+  animation-name: ani7;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 19s;
+  animation-timing-function: ease-out;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    height:60px;
+    font-size:1em;
+padding: -0.5em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+
+.back1 {
+  position: absolute;
+  top:540px;
+  left:100px;
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  height:60px;
+  font-size:1em;
+padding: -0.5em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+.next1 {
+  position: absolute;
+  top:540px;
+  left:650px;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    height:60px;
+    font-size:1em;
+padding: -0.5em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+
+@keyframes ani1 {
+  from { top: -750px; opacity: 0;}
+ to   { top: 0px; opacity: 1;}
+}
+
+@keyframes ani2 {
+  from { left: 1000px; opacity: 0;}
+ to   { left: 50px; opacity: 1;}
+}
+
+@keyframes ani3 {
+  from { top: 1500px; opacity: 0;}
+ to   { top: 50px; opacity: 1;}
+}
+
+@keyframes ani4 {
+  from { left: -950px; opacity: 0;}
+ to   { left: 0px; opacity: 1;}
+}
+
+@keyframes ani5 {
+  0% {opacity: 0;}
+50%   {opacity: 1;}
+ 100%   {opacity: 1;}
+}
+
+@keyframes ani6 {
+  0% {opacity: 0;}
+90%   {opacity: 1;}
+ 100%   {opacity: 0;}
+}
+
+@keyframes ani7 {
+  0% {opacity: 0;}
+90%   {opacity: 1;}
+ 100%   {opacity: 1;}
+}
+
+.ffirstp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+}
+
+.ssecp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 3s;
+  animation-timing-function: ease-out;
+}
+
+.tthrp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 6s;
+  animation-timing-function: ease-out;
+}
+
+.ffoup {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 9s;
+  animation-timing-function: ease-out;
+}
+
+.ffivp {
+  animation-name: ani6;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 12s;
+  animation-timing-function: ease-out;
+}
+
+.ssixp {
+  animation-name: ani7;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 15s;
+  animation-timing-function: ease-out;
+}
+
+
+.ccolor1 {
+width:5%;
+height:93.75%;
+margin: 0;
+padding: 0;
+position: absolute;
+background-color: #feb396;
+}
+
+.ccolor2 {
+width:95%;
+height:6.25%;
+margin: 0;
+padding: 0;
+left: 50px;
+position: absolute;
+background-color: #ffccbf;
+}
+
+.ccolor3 {
+  width:5%;
+  height:93.75%;
+margin: 0;
+padding: 0;
+top: 50px;
+right: 0px;
+position: absolute;
+background-color: #aed4d5;
+}
+
+.ccolor4 {
+  width:95%;
+  height:6.25%;
+margin: 0;
+padding: 0;
+bottom: 0px;
+right: 50px;
+position: absolute;
+background-color: #f9cc88;
+}
+
+
+p.word2 {
+left:600px;
+top:200px;
+position: absolute;
+text-align: center;
+line-height: 1.5;
+animation: none;
+}
+
+p.word3 {
+left:600px;
+top:200px;
+position: absolute;
+text-align: center;
+line-height: 1.5;
+animation: none;
+}
+
+
+p.word4 {
+left:600px;
+top:200px;
+position: absolute;
+text-align: center;
+line-height: 1.5;
+animation: none;
+}
+
+p.word5 {
+left:600px;
+top:200px;
+position: absolute;
+text-align: center;
+line-height: 1.5;
+animation: none;
+}
+
+p.word6 {
+left:600px;
+top:200px;
+position: absolute;
+text-align: center;
+line-height: 1.5;
+animation: none;
+}
+p.word7 {
+left:600px;
+top:200px;
+position: absolute;
+text-align: center;
+line-height: 1.5;
+animation: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .index3 {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    left:0;
+    top:0;
+    border: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .color1 {
+    width:20px;
+    height:480px;
+    margin: 0;
+    padding: 0;
+  position: absolute;
+  background-color: #feb396;
+  animation-name: ani1;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  }
+
+  .color2 {
+    width:280px;
+    height:20px;
+    margin: 0;
+    padding: 0;
+    left: 20px;
+  position: absolute;
+  background-color: #ffccbf;
+  animation-name: ani2;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  }
+
+  .color3 {
+    width:20px;
+    height:480px;
+  margin: 0;
+  padding: 0;
+  top: 20px;
+  right: 0px;
+  position: absolute;
+  background-color: #aed4d5;
+  animation-name: ani3;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  }
+
+  .color4 {
+    width:280px;
+    height:20px;
+  margin: 0;
+  padding: 0;
+  bottom: 0px;
+  right: 20px;
+  position: absolute;
+  background-color: #f9cc88;
+  animation-name: ani4;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  }
+
+  .ccolor1 {
+  width:20px;
+  height:480px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #feb396;
+  }
+
+  .ccolor2 {
+  width:280px;
+  height:20px;
+  margin: 0;
+  padding: 0;
+  left: 20px;
+  position: absolute;
+  background-color: #ffccbf;
+  }
+
+  .ccolor3 {
+    width:20px;
+    height:480px;
+  margin: 0;
+  padding: 0;
+  top: 20px;
+  right: 0px;
+  position: absolute;
+  background-color: #aed4d5;
+  }
+
+  .ccolor4 {
+    width:280px;
+    height:20px;
+  margin: 0;
+  padding: 0;
+  bottom: 0px;
+  right: 20px;
+  position: absolute;
+  background-color: #f9cc88;
+  }
+
+  #photos{
+      width:260px;
+      height:195px;
+      top:20px;
+      left: 20px;
+      position: absolute;
+  }
+
+  #photos img{
+      width:100%;
+      height:100%;
+      position:absolute;
+      border-radius:0px;
+  }
+
+  p.word2 {
+  left:40px;
+  top:215px;
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+  animation: none;
+  margin: auto;
+  }
+
+  p.word3 {
+  left:50px;
+  top:215px;
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+  animation: none;
+  margin: auto;
+  }
+
+  p.word4 {
+  left:70px;
+  top:215px;
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+  animation: none;
+  margin: auto;
+  }
+
+  p.word5 {
+  left:50px;
+  top:215px;
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+  animation: none;
+  margin: auto;
+  }
+
+  p.word6 {
+  left:30px;
+  top:215px;
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+  animation: none;
+  margin: auto;
+  }
+
+  p.word7 {
+  left:50px;
+  top:215px;
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+  animation: none;
+  margin: auto;
+  }
+
+  .back {
+    position: absolute;
+    top:400px;
+    left:20px;
+    animation-name: ani7;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 19s;
+    animation-timing-function: ease-out;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    height:60px;
+    font-size:1em;
+  padding: -0.5em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+
+  .next {
+    position: absolute;
+    top:400px;
+    left:200px;
+    animation-name: ani7;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 19s;
+    animation-timing-function: ease-out;
+      background:#1AAB8A;
+      color:#fff;
+      border:none;
+      height:60px;
+      font-size:1em;
+  padding: -0.5em;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+  }
+
+  .back1 {
+    position: absolute;
+    top:400px;
+    left:20px;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    height:60px;
+    font-size:1em;
+  padding: -0.5em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+
+  .next1 {
+    position: absolute;
+    top:400px;
+    left:200px;
+      background:#1AAB8A;
+      color:#fff;
+      border:none;
+      height:60px;
+      font-size:1em;
+  padding: -0.5em;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+  }
+
+  p {
+    left:20px;
+    top:215px;
+  position: absolute;
+  text-align: center;
+  line-height: 1.5;
+  animation-name: ani5;
+  animation-duration: 5s;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+    font-size: 0.75;
+  }
+  @keyframes ani2 {
+    from { left: 1000px; opacity: 0;}
+   to   { left: 20px; opacity: 1;}
+  }
+
+  @keyframes ani3 {
+    from { top: 1500px; opacity: 0;}
+   to   { top: 20px; opacity: 1;}
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  .index3 {
+    transform: scale(0.95);
+    transform-origin: top left;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .index3 {
+    transform: scale(1);
+    transform-origin: top left;
+    margin: auto;
+  }
+}

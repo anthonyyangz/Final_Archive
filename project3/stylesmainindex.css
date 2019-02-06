@@ -1,0 +1,330 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 255, 255);
+}
+
+.loading {
+background: rgb(235, 66, 62);
+height: 100%;
+width: 100%;
+position: absolute;
+margin: 0;
+padding: 0;
+z-index: 10;
+animation-name: loadingani;
+animation-duration: 1000s;
+animation-fill-mode: both;
+}
+
+.loadingword {
+height: 100%;
+width: 100%;
+text-align: center;
+align-content: center;
+z-index: 100;
+}
+
+
+.loading1 {
+  top:350px;
+  margin: 0;
+  position:relative;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-size: 32px;
+  animation-name: changeopacity;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: 3;
+  z-index: 100;
+}
+
+.loading2 {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:703px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 6s;
+  z-index: 100;
+}
+
+.loading3   {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:800px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 9s;
+  z-index: 100;
+}
+
+.loading4   {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:800px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 9.5s;
+  z-index: 100;
+}
+
+.loading5   {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:800px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 10s;
+  z-index: 100;
+}
+
+.loading6   {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:730px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 10.5s;
+  z-index: 100;
+}
+
+.loading7   {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:700px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 11.5s;
+  z-index: 100;
+}
+
+.loading8   {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:640px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 12.5s;
+  z-index: 100;
+}
+
+.loading9   {
+  top:366px;
+  margin: 0;
+  position:absolute;
+  left:800px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-size: 20px;
+  animation-name: changeopacity;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 13.5s;
+  z-index: 100;
+}
+
+
+@keyframes changeopacity {
+0% {opacity: 0;}
+50% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@keyframes loadingani {
+0% {opacity: 1;}
+99% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+
+#photos{
+    width:110px;
+    height:180px;
+    border:1px solid #ccc;
+    margin: auto;
+    margin-top: 20vh;
+    transform:rotateY(0deg);
+    transform-style:preserve-3d;
+transform:rotateX(-10deg);
+}
+
+.persp {
+  perspective:800px;
+}
+
+#photos img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    box-shadow:0 0 8px #eaeaea;
+    box-shadow: 1px -1px 6px #666;
+    border-radius:4px;
+    -webkit-box-reflect:below 3px -webkit-linear-gradient(top,rgba(0,0,0,0) 40%,rgba(0,0,0,0.5));
+    cursor:pointer;
+}
+
+button {
+  position: relative;
+  z-index: 200;
+  top:330px;
+  margin: 0;
+  left:770px;
+  text-transform: uppercase;
+  animation-name: buttonshow;
+  animation-duration: 10000s;
+  animation-fill-mode: both;
+  animation-delay: 15s;
+  z-index: 100;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  background:#ec6562;
+color:rgb(235, 66, 62);
+border-color: #ec6562;
+}
+
+@keyframes buttonshow {
+0% {opacity: 0;}
+0.01% {opacity: 1;}
+99% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+button:hover{
+  background:rgb(235, 66, 62);
+color:rgb(255, 255, 255);
+  text-decoration: line-through;
+}
+
+.screenpro {
+height: 100%;
+width: 100%;
+background-image: url("screen.png");
+background-repeat: no-repeat;
+text-align: center;
+align-content: center;
+align-self: center;
+}
+
+.intro {
+  position: relative;
+  font-family: 'Krub', sans-serif;
+  margin-top: 45vh;
+}
+
+@media only screen and (max-width: 600px) {
+  #photos {
+    width:60px;
+    height:100px;
+  }
+
+  .intro {
+      margin-top: 40vh;
+      font-size: 12px;
+  }
+}
+
+.panel66 {
+    position: relative;
+      left: -10vw; /*or width of your navigation panel*/
+    width: 10vw; /*should match the above value*/
+    height: 100vh;
+
+}
+
+.conta {
+  top:0;
+  left:0;
+  width: 10vw;
+  height: 100vh;
+  position: absolute;
+  /* margin-top: -95vh; */
+  float: left;
+  /* background-color: rgb(255, 0, 0); */
+}
+
+
+.panel66 {
+    background: #101820;
+            z-index: 2000;
+            text-align: left;
+}
+
+.panel66 a {
+    color: rgb(255, 255, 255);
+        z-index: 2000;
+          text-align: left;
+}
+
+.lili {
+  color: rgb(255, 255, 255);
+}
+
+.ul{
+  text-align: left;
+}
+
+.menu-link {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-size: 40px;
+}
+
+.wrap.push{
+    position: absolute;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}

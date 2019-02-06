@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+<title>Archive</title>
+<style>
+h3{
+color: #5A5A5A;
+		margin-left: 20vw;
+		margin-bottom: 10vh;
+		position: relative;
+}
+	body{
+		background: url(images/sky.jpg);
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 99%;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	#box{
+		width: 200px;
+		height: 200px;
+		margin:30vh 20vw;
+		/* background: #ccc; */
+		position: relative;
+		transform:perspective(800px) rotateY(-60deg) rotateX(45deg);
+		transform-style:preserve-3d;
+		z-index: 1000;
+	}
+	#box div{
+		width:100%;
+		height:100%;
+		position: absolute;
+		top:0;
+		left: 0;
+		background-size:cover;
+		-webkit-box-shadow:0 0 100px #5fbcff;
+		opacity: .8;
+	}
+	.front{
+		transform:translateZ(100px);
+		background: url(images/a5.png);
+		animation-name: appeart;
+		animation-duration: 1s;
+		/* animation-delay: 5s; */
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+	}
+	.back{
+		transform:translateZ(-100px);
+		background: url(images/a1.png);
+		animation-name: appeart;
+		animation-duration: 1s;
+		/* animation-delay: 3s; */
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+	}
+	.left{
+		transform:translateX(-100px) rotateY(90deg);
+		background: url(images/a2.png);
+		animation-name: appeart;
+		animation-duration: 1s;
+		/* animation-delay: 1s; */
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+	}
+	.right{
+		transform:translateX(100px) rotateY(90deg);
+		background: url(images/a3.png);
+		animation-name: appeart;
+		animation-duration: 1s;
+		/* animation-delay: 6s; */
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+	}
+	.top{
+		transform:translateY(-100px) rotateX(90deg);
+		background: url(images/a4.png);
+		animation-name: appeart;
+		animation-duration: 1s;
+		/* animation-delay: 2s; */
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+	}
+	.bottom{
+		transform:translateY(100px) rotateX(90deg);
+		background: url(images/a8.png);
+		animation-name: appeart;
+		animation-duration: 1s;
+		/* animation-delay: 4s; */
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+	}
+
+div.right:hover {
+		background: url(images/a33.png);
+}
+
+div.bottom:hover {
+		background: url(images/a88.png);
+}
+
+div.front:hover {
+		background: url(images/a55.png);
+}
+
+div.back:hover {
+		background: url(images/a11.png);
+}
+
+div.left:hover {
+		background: url(images/a22.png);
+}
+
+div.top:hover {
+		background: url(images/a44.png);
+}
+@keyframes appeart {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+p {
+	margin-left: 50vw;
+	margin-top: vh;
+	text-align: left;
+	position: absolute;
+	line-height: 1.5;
+	color: rgb(255, 255, 255);
+}
+
+
+
+
+@keyframes flip-wave-0{5%{transform:translate3d(0, -16px, 0) rotate(720deg)}10%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+0){display:inline-block;animation-duration:4s;animation-name:flip-wave-0;animation-fill-mode: forwards;}@keyframes flip-wave-1{10%{transform:translate3d(0, -16px, 0) rotate(720deg)}15%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+1){display:inline-block;animation-duration:4s;animation-name:flip-wave-1;animation-fill-mode: forwards;}@keyframes flip-wave-2{15%{transform:translate3d(0, -16px, 0) rotate(720deg)}20%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+2){display:inline-block;animation-duration:4s;animation-name:flip-wave-2;animation-fill-mode: forwards;}@keyframes flip-wave-3{20%{transform:translate3d(0, -16px, 0) rotate(720deg)}25%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+3){display:inline-block;animation-duration:4s;animation-name:flip-wave-3;animation-fill-mode: forwards;}@keyframes flip-wave-4{25%{transform:translate3d(0, -16px, 0) rotate(720deg)}30%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+4){display:inline-block;animation-duration:4s;animation-name:flip-wave-4;animation-fill-mode: forwards;}@keyframes flip-wave-5{30%{transform:translate3d(0, -16px, 0) rotate(720deg)}35%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+5){display:inline-block;animation-duration:4s;animation-name:flip-wave-5;animation-fill-mode: forwards;}@keyframes flip-wave-6{35%{transform:translate3d(0, -16px, 0) rotate(720deg)}40%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+6){display:inline-block;animation-duration:4s;animation-name:flip-wave-6;animation-fill-mode: forwards;}@keyframes flip-wave-7{40%{transform:translate3d(0, -16px, 0) rotate(720deg)}45%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+7){display:inline-block;animation-duration:4s;animation-name:flip-wave-7;animation-fill-mode: forwards;}@keyframes flip-wave-8{45%{transform:translate3d(0, -16px, 0) rotate(720deg)}50%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+8){display:inline-block;animation-duration:4s;animation-name:flip-wave-8;animation-fill-mode: forwards;}@keyframes flip-wave-9{50%{transform:translate3d(0, -16px, 0) rotate(720deg)}55%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+9){display:inline-block;animation-duration:4s;animation-name:flip-wave-9;animation-fill-mode: forwards;}@keyframes flip-wave-10{55%{transform:translate3d(0, -16px, 0) rotate(720deg)}60%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+10){display:inline-block;animation-duration:4s;animation-name:flip-wave-10;animation-fill-mode: forwards;}@keyframes flip-wave-11{60%{transform:translate3d(0, -16px, 0) rotate(720deg)}65%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+11){display:inline-block;animation-duration:4s;animation-name:flip-wave-11;animation-fill-mode: forwards;}@keyframes flip-wave-12{65%{transform:translate3d(0, -16px, 0) rotate(720deg)}70%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+12){display:inline-block;animation-duration:4s;animation-name:flip-wave-12;animation-fill-mode: forwards;}@keyframes flip-wave-13{70%{transform:translate3d(0, -16px, 0) rotate(720deg)}75%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+13){display:inline-block;animation-duration:4s;animation-name:flip-wave-13;animation-fill-mode: forwards;}@keyframes flip-wave-14{75%{transform:translate3d(0, -16px, 0) rotate(720deg)}80%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+14){display:inline-block;animation-duration:4s;animation-name:flip-wave-14;animation-fill-mode: forwards;}@keyframes flip-wave-15{80%{transform:translate3d(0, -16px, 0) rotate(720deg)}85%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+15){display:inline-block;animation-duration:4s;animation-name:flip-wave-15;animation-fill-mode: forwards;e}@keyframes flip-wave-16{85%{transform:translate3d(0, -16px, 0) rotate(720deg)}90%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+16){display:inline-block;animation-duration:4s;animation-name:flip-wave-16;animation-fill-mode: forwards;}@keyframes flip-wave-17{90%{transform:translate3d(0, -16px, 0) rotate(720deg)}95%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+17){display:inline-block;animation-duration:4s;animation-name:flip-wave-17;animation-fill-mode: forwards;}@keyframes flip-wave-18{95%{transform:translate3d(0, -16px, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+18){display:inline-block;animation-duration:4s;animation-name:flip-wave-18;animation-fill-mode: forwards;}@keyframes flip-wave-19{100%{transform:translate3d(0, -16px, 0) rotate(720deg)}105%{transform:translate3d(0, 0, 0) rotate(720deg)}100%{transform:translate3d(0, 0, 0) rotate(720deg)}}.txtwav.flip :nth-child(20n+19){display:inline-block;animation-duration:4s;animation-name:flip-wave-19;animation-fill-mode: forwards;}
+
+
+
+
+@media only screen and (max-width: 700px) {
+		#box{
+			width: 200px;
+			height: 200px;
+			margin:30vh auto;
+			background: #ccc;
+			position: relative;
+			transform:perspective(800px) rotateY(-60deg) rotateX(45deg);
+			transform-style:preserve-3d;
+		}
+
+		p {
+			margin:10vh auto;
+			text-align: center;
+			position: relative;
+		}
+
+
+
+		body{
+			text-align: center;
+			width: 95%;}
+
+		h3{
+		color: #5A5A5A;
+		margin: 0;
+		padding: 0;
+		}
+}
+
+
+
+/*
+    Recommeded CSS
+    ==============
+*/
+
+.panel {
+    position: relative;
+	    left: -10vw; /*or width of your navigation panel*/
+    width: 10vw; /*should match the above value*/
+		height: 100vh;
+
+}
+
+.conta {
+	top:0;
+	left:0;
+	width: 10vw;
+	height: 100vh;
+	position: absolute;
+	/* margin-top: -95vh; */
+	float: left;
+	/* background-color: rgb(255, 0, 0); */
+}
+
+
+.panel {
+    background: #101820;
+						z-index: 2000;
+}
+
+.panel a {
+    color: rgb(255, 255, 255);
+				z-index: 2000;
+}
+
+.lili {
+  color: rgb(255, 255, 255);
+}
+
+
+.menu-link {
+  color: rgb(255, 255, 255);
+  position: absolute;
+	font-size: 40px;
+}
+
+.wrap.push{
+    position: absolute;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+
+</style>
+<script>
+	window.onload=function()
+	{
+		var oBox=document.querySelector('#box');
+
+		var y=-60;
+		var x=45;
+		oBox.onmousedown=function(ev)
+		{
+			var oEvent=ev||event;
+			var disX=oEvent.clientX-y;
+			var disY=oEvent.clientY-x;
+			document.onmousemove=function(ev)
+			{
+				var oEvent=ev||event;
+				x=oEvent.clientY-disY;
+				y=oEvent.clientX-disX;
+				oBox.style.transform='perspective(800px) rotateX('+x+'deg) rotateY('+y+'deg)';
+			};
+			document.onmouseup=function()
+			{
+				document.onmousemove=null;
+				document.onmouseup=null;
+			};
+			return false;
+		};
+	};
+</script>
+</head>
+<body>
+	<div class="words">
+		<p class="txtwav flip">
+		WEB DESIGN|RISD GRAPH-3271|WINTER2019</p>
+<p>
+		<br>Student Name:Yang Zhao
+		<br>Description: This website contains the overall production including projects, exercises, about me, reading responses and process.
+		<br>Each of the face on the cube is linked to the each of the categories listed above. Please feel free to check them out.
+		</p>
+	</div>
+<div id="box">
+	<a href="poster/poster.html"><div class="front"></div></a>
+		<a href="aboutme/aboutme.html"><div class="back"></div></a>
+		<a href="reflection/reflection.html"><div class="top"></div></a>
+		<a href="readings/reading.html"><div class="bottom"></div></a>
+		<a href="process/process.html"><div class="left"></div></a>
+		<a href="project3/index.html"><div class="right"></div></a>
+</div>
+
+<h3>Click to drag the cube</h3>
+
+<nav id="menu" class="panel" role="navigation">
+		<ul>
+				<li><a href="index.html">Main Page</a></li>
+				<li><a href="#">Projects</a>
+					<ul class="lili"><a href="project1/index.html">project1</a></ul>
+					<ul class="lili"><a href="project2/index.html">project2</a></ul>
+					<ul class="lili"><a href="project3/index.html">project3</a></ul>
+				</li>
+				<li><a href="poster/poster.html">Exercises</a></li>
+				<li><a href="readings/reading.html">Readings</a></li>
+				<li><a href="aboutme/aboutme.html">About Me</a></li>
+				<li><a href="process/process.html">Process</a></li>
+				<li><a href="reflection/reflection.html">Course Reflection</a></li>
+		</ul>
+</nav>
+<div class="conta">
+<div class="wrap push">
+
+		<a href="#menu" class="menu-link">&#9776;</a>
+</div>
+</div>
+<div style="text-align:center;clear:both">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div>
+</body>
+<script src="dist/js/txt.wav.min.js"></script>
+<script src="js/canvas-nest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bigSlide.js"></script>
+<script>
+		$(document).ready(function() {
+				$('.menu-link').bigSlide();
+		});
+</script>
+</html>

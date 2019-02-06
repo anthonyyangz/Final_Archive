@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1" media="screen">
+<link rel="stylesheet" type="text/css" href="stylesmainindex.css">
+<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+	<head>
+		<title>Main-Page</title>
+	</head>
+	<body class="screenpro">
+<div class="persp">
+<div id="photos">
+<a href="index3.html"><img src="1.png" alt="birthday"></a>
+<a href="index9.html"><img src="grad.png" alt="birthday"></a>
+<a href="index8.html"><img src="college.png" alt="birthday"></a>
+<a href="index7.html"><img src="highschool.png" alt="birthday"></a>
+<a href="index6.html"><img src="middleschool.png" alt="birthday"></a>
+<a href="index5.html"><img src="elementaryschool.png" alt="birthday"></a>
+<a href="index4.html"><img src="kindergarten.png" alt="birthday"></a>
+<div></div>
+</div>
+</div>
+<p class="intro">Yang's Education Data</p>
+
+<nav id="menu" class="panel66" role="navigation">
+		<ul>
+				<li><a href="../index.html">Main Page</a></li>
+				<li><a href="#">Projects</a>
+					<ul class="lili"><a href="../project1/index.html">project1</a></ul>
+					<ul class="lili"><a href="../project2/index.html">project2</a></ul>
+					<ul class="lili"><a href="index.html">project3</a></ul>
+				</li>
+				<li><a href="../poster/poster.html">Exercises</a></li>
+				<li><a href="../readings/reading.html">Readings</a></li>
+				<li><a href="../aboutme/aboutme.html">About Me</a></li>
+				<li><a href="../process/process.html">Process</a></li>
+				<li><a href="../reflection/reflection.html">Course Reflection</a></li>
+		</ul>
+</nav>
+<div class="conta">
+<div class="wrap push">
+
+		<a href="#menu" class="menu-link">&#9776;</a>
+</div>
+</div>
+
+
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="bigSlide.js"></script>
+	<script>
+	    $(document).ready(function() {
+	        $('.menu-link').bigSlide();
+	    });
+	</script>
+	<script>
+	var photosDom = document.getElementById('photos');
+
+var images = photosDom.getElementsByTagName('img');
+
+var len = images.length;
+
+var deg = Math.floor(360 / len);
+for(var i = 0; i < len;i++){
+    images[i].style = 'transform : rotateY(' + deg * i + 'deg)';
+}
+for(var i = 0; i < len;i++){
+    images[i].style = 'transform : rotateY(' + deg * i + 'deg) translateZ(25vw)';
+}
+var x = 0;
+setInterval(function(){
+    photosDom.style.transform = "rotateX(-10deg) rotateY("+ (x++) * 0.2 +"deg)";
+},15);
+</script>
+
+</html>

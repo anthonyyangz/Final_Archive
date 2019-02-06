@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles2.css">
+	<head>
+		<title>Birthday</title>
+	</head>
+	<body>
+
+		<div class="index3">
+			<span class="color1"></span>
+			<span class="color2"></span>
+			<span class="color3"></span>
+			<span class="color4"></span>
+			<p>On April 26th 1997
+			<br> A BIG BIG BIG DAY FOR ME
+			<br>I was born in Japan
+			<br>but my parents are from china
+			<br>So I actually consider myself as Chinese
+		</p>
+		<div id="photos">
+				<img src="japan.png" class="firstp">
+				<img src="fire.gif" class="secp">
+				<img src="baby.gif" class="thrp">
+				<img src="pare.png" class="foup">
+				<img src="happy2.gif" class="fivp">
+				<img src="happy.gif" class="sixp">
+				<a href="index2.html"><button class="back">Back</button></a>
+				<a href="index4.html"><button class="next">Next</button></a>
+		</div>
+		</div>
+
+		<nav id="menu" class="panel66" role="navigation">
+        <ul>
+            <li><a href="../index.html">Main Page</a></li>
+            <li><a href="#">Projects</a>
+							<ul class="lili"><a href="../project1/index.html">project1</a></ul>
+							<ul class="lili"><a href="../project2/index.html">project2</a></ul>
+							<ul class="lili"><a href="index.html">project3</a></ul>
+            </li>
+            <li><a href="../poster/poster.html">Exercises</a></li>
+            <li><a href="../readings/reading.html">Readings</a></li>
+            <li><a href="../aboutme/aboutme.html">About Me</a></li>
+            <li><a href="../process/process.html">Process</a></li>
+            <li><a href="../reflection/reflection.html">Course Reflection</a></li>
+        </ul>
+    </nav>
+    <div class="conta">
+    <div class="wrap push">
+
+        <a href="#menu" class="menu-link">&#9776;</a>
+    </div>
+    </div>
+
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="bigSlide.js"></script>
+	<script>
+			$(document).ready(function() {
+					$('.menu-link').bigSlide();
+			});
+	</script>
+</html>

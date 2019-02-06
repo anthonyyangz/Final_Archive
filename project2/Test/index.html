@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Includeing the Favorite Icon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Computer Character Set - Not to Important -->
+    <meta charset="UTF-8">
+    <!-- Description of the Website -->
+    <meta name="description" content="Google Clone">
+    <!-- Title -->
+    <title>Google Replica</title>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Author Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="alphabet.js"></script>
+
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <script type="text/javascript" src="bubbles.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <!-- Top Section - Navigation -->
+    <ul class="top-navigation">
+      <li>
+        <a href="https://www.google.com/">+Yang</a>
+      </li>
+      <li>
+        <a href="https://mail.google.com/mail/?tab=wm">Mail</a>
+      </li>
+      <li>
+        <a href="https://www.google.com/imghp?hl=en&tab=wi&ei=jtezVc6XNcq2ed_doeAL&ved=0CBQQqi4oAQ">Images</a>
+      </li>
+      <li>
+        <div class="fa fa-th"></div>
+      </li>
+      <li>
+        <div class="fa fa-bell-o"></div>
+      </li>
+      <li>
+        <span class="share-button">Share</span>
+      </li>
+      <li>
+        <img class="profile-img" src="life.jpg">
+      </li>
+    </ul>
+    <!-- Middle Section - Search Box -->
+    <div class="search-box">
+      <img src="google2.png">
+      <input type="text" autofocus placeholder="Search Google or type a URL">
+      <div class="search-buttons">
+        <button class="biggerbutton">Google Search
+        	<span class="googlesearch"> This is personal exercise so you won't have possibility to actually googling anything</span>
+        </button>
+
+        <button class="biggerbutton">I'm Feeling Lucky
+          <span class="Ifeellucky"> I can't actually offer you any luck from this site, sorry.
+      		</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Bottom Section - Site Links -->
+    <div class="bottom-site-links">
+      <!-- Bottom Left Links -->
+      <ul class="left-site-links">
+        <li>
+          <a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/services/?fg=1">Business</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/intl/en/about.html?fg=1">About</a>
+        </li>
+      </ul>
+      <!-- Bottom Right Links -->
+      <ul class="right-site-links">
+        <li>
+          <a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        </li>
+      </ul>
+    </div>
+    <canvas id="myCanvas"></canvas>
+
+    <div class="wholepage">
+    <span class="onestone"></span>
+    <span class="twostone"></span>
+    <span class="thrstone"></span>
+    <span class="foustone"></span>
+    <span class="fivstone"></span>
+    <span class="sixstone"></span>
+</div>
+
+<div class="wholepage2">
+<span class="navigation">
+<a href="https://www.youtube.com">
+  <img src="youtube.png" alt="youtube" class="navigation1">
+</a>
+<a href="https://www.risd.edu/">
+  <img src="risd.png" class="navigation2">
+</a>
+<a href="https://www.google.com/maps">
+  <img src="googlemap.png" class="navigation3">
+</a>
+<a href="https://github.com/">
+  <img src="github.png" class="navigation4">
+</a>
+
+<a href="https://mail.google.com/">
+  <img src="gmail.png" class="navigation5">
+</a>
+
+<a href="https://www.google.com/drive/">
+  <img src="gdrive.png" class="navigation6">
+</a>
+
+<a href="https://en.wikipedia.org/wiki/">
+  <img src="wiki.png" class="navigation7">
+</a>
+
+<a href="https://www.pinterest.com/">
+  <img src="ps.png" class="navigation8">
+</a>
+</span>
+  </div>
+
+<button class="switchcolor">Don't like the color?Click here
+</button>
+<script type="text/javascript">
+var color = ["#A3E4D7","#F4D03F","#AEB6BF","#F5B7B1","#FFA07A","#fff7b8","#ffa500","#edeae0","#f8eceb","#f8f3eb","#ffe4e1","#ffe4e1","#ff6e6e","#b2d0e4","#B1F5D9","#F5D9B1","#CDF5B1","#D9BB8E","#D2D98E"];
+var i = 0;
+document.querySelector("button.switchcolor").addEventListener("click",
+  function(){
+  i = i < color.length ? ++i : 0;
+  document.querySelector("div.wholepage2").style.background = color[i]
+  })
+
+</script>
+
+
+  </body>
+</html>
+<script type="text/javascript" src="circlemouse.js"></script>

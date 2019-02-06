@@ -1,0 +1,54 @@
+img {
+  height: auto;
+  width: 100vw;
+}
+.panel66 {
+    position: relative;
+      left: -5vw; /*or width of your navigation panel*/
+    width: 10vw; /*should match the above value*/
+    height: 100vh;
+
+}
+
+.conta {
+  top:0;
+  left:0;
+  width: 5vw;
+  height: 100vh;
+  position: absolute;
+  /* margin-top: -95vh; */
+  float: left;
+  /* background-color: rgb(255, 0, 0); */
+}
+
+.panel66 {
+    background: #101820;
+            z-index: 2000;
+}
+
+.panel66 a {
+    color: rgb(255, 255, 255);
+        z-index: 2000;
+}
+
+.lili {
+  color: rgb(255, 255, 255);
+}
+
+
+.menu-link {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-size: 40px;
+  z-index: 9999;
+}
+
+.wrap.push{
+    position: absolute;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
